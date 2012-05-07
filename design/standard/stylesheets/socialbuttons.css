@@ -1,0 +1,125 @@
+.attribute-social
+{
+    margin-top:2em;
+}
+
+.addthis_toolbox,
+.social-button
+{
+    float:left;    
+}
+
+.social-button a
+{
+    display:block;
+    overflow:hidden;
+    background-position:center center;
+    background-repeat:no-repeat;
+    margin:0 2px;
+}
+
+.social-button a:hover
+{
+    opacity:0.7;
+}
+
+.social-button a span
+{
+    visibility:hidden;
+}
+
+.attribute-social .attribute-star_rating
+{
+    float:left;
+    clear:left;
+    font-size:.875em;
+    margin-top:10px;
+}
+
+/* default style (16x16) */
+
+.style_default .social-button a
+{
+    width:16px;
+    height:16px;   
+}
+
+.attribute-social .style_default .tipafriend a
+{
+    background-image:url( ../images/16x16/tip.png );
+}
+
+.attribute-social .style_default .print a
+{
+    background-image:url( ../images/16x16/print.png );
+}
+
+.attribute-social .style_default .rss a
+{
+    background-image:url( ../images/16x16/rss.png );
+}
+
+.attribute-social .style_default .ezsr-star-rating,
+.attribute-social .style_default .ezsr-star-rating a:hover,
+.attribute-social .style_default .ezsr-star-rating a:active,
+.attribute-social .style_default .ezsr-star-rating a:focus,
+.attribute-social .style_default .ezsr-star-rating .ezsr-current-rating {
+    background-image: url("../images/16x16/star.png");
+}
+
+.attribute-social .style_default .ezsr-star-rating
+{
+    width:80px;
+    height: 16px;
+}
+
+.attribute-social .style_default .ezsr-star-rating a,
+.attribute-social .style_default .ezsr-star-rating .ezsr-current-rating
+{
+    line-height: 16px;
+    height: 16px;
+}
+
+/* 32x32 style */
+
+.style_32x32 .social-button a
+{
+    width:32px;
+    height:32px;   
+}
+
+.attribute-social .style_32x32 .tipafriend a
+{
+    background-image:url( ../images/32x32/tip.png );
+}
+
+.attribute-social .style_32x32 .print a
+{
+    background-image:url( ../images/32x32/print.png );
+}
+
+.attribute-social .style_32x32 .rss a
+{
+    background-image:url( ../images/32x32/rss.png );
+}
+
+.attribute-social .style_32x32 .ezsr-star-rating,
+.attribute-social .style_32x32 .ezsr-star-rating a:hover,
+.attribute-social .style_32x32 .ezsr-star-rating a:active,
+.attribute-social .style_32x32 .ezsr-star-rating a:focus,
+.attribute-social .style_32x32 .ezsr-star-rating .ezsr-current-rating {
+    background-image: url("../images/32x32/star.png");
+}
+
+.attribute-social .style_32x32 .ezsr-star-rating
+{
+    width:160px;
+    height: 32px;
+}
+
+.attribute-social .style_32x32 .ezsr-star-rating a,
+.attribute-social .style_32x32 .ezsr-star-rating .ezsr-current-rating
+{
+    line-height: 32px;
+    height: 32px;
+}
